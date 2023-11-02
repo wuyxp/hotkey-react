@@ -17,7 +17,6 @@ import { HotkeyClassDemo } from './HotkeyClassDemo';
 export const HotkeyDemo = () => {
 	return (
 		<div>
-			hotkeyDemo
 			<HotkeysProvider>
 				<HotkeyFunDemo></HotkeyFunDemo>
 				<HotkeyClassDemo></HotkeyClassDemo>

@@ -4,6 +4,7 @@ import {
 	createHotkeyScope,
 	useHotkeysManager,
 	HotkeysProvider,
+	HotkeyManager,
 	HotkeysTarget,
 	withHotKeys
 } from 'react-hotkey';
@@ -19,6 +20,8 @@ export class HotkeyClassDemoContainer extends React.PureComponent {
 		}
 	];
 	render() {
+		const hotkeyManage = (this.props as any).hotkeyManager as HotkeyManager;
+		console.log('hotkeyManage', hotkeyManage.currentScope);
 		return (
 			<HotkeysTarget hotkeys={this.hotkeyConfig} scopeName={this.scopeName}>
 				<div style={{ width: 200, height: 200, border: '1px solid' }}>
