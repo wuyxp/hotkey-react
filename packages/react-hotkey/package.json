@@ -1,5 +1,5 @@
 {
-  "name": "react-hotkey",
+  "name": "hotkey-react",
   "version": "1.0.0",
   "description": "基于 react 实现可随意组合快捷键",
   "main": "dist/index.umd.js",
